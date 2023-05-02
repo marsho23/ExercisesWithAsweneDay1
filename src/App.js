@@ -6,6 +6,11 @@ import Footer from './components/Footer';
 import MyComponent from './components/MyComponent';
 import Props from './components/Props';
 import ComponentWithProps from './components/ComponentWithProps';
+import MilesAhead from './components/MilesAhead';
+import Login from './components/Login';
+import Car from './components/Car';
+import ProductTable from './components/ProductTable';
+
 
 function App() {
   return (
@@ -21,6 +26,12 @@ function App() {
       <p><b>Props Tutorial and Exercise</b></p>
       <Props/>
       <ComponentWithProps/>
+      <p><b>States Tutorial and Exercise</b></p>
+      <MilesAhead/>
+      <Login/>
+      <Car/>
+      <br/>
+      <ProductTable/>
     </div>
     
   );

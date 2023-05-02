@@ -4,6 +4,8 @@ import JsxExercise from './components/JsxExercise';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MyComponent from './components/MyComponent';
+import Props from './components/Props';
+import ComponentWithProps from './components/ComponentWithProps';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <Footer/>
       <p><b>Components Tutorial and Exercise</b></p>
       <MyComponent/>
+      <p><b>Props Tutorial and Exercise</b></p>
+      <Props/>
+      <ComponentWithProps/>
     </div>
     
   );

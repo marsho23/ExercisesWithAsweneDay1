@@ -3,7 +3,7 @@ import React from 'react';
 import JsxExercise from './components/JsxExercise';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import MyComponent from './components/MyComponent';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
       <p><b>Component Hierarchy Tutorial and Exercise</b></p>
       <Header/>
       <Footer/>
+      <p><b>Components Tutorial and Exercise</b></p>
+      <MyComponent/>
     </div>
     
   );
